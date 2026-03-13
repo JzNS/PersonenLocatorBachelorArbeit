@@ -1,0 +1,48 @@
+# ==========================================
+# 1. PYTHON CACHES & TEMPORÄRES
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# 2. VIRTUAL ENVIRONMENTS (Sehr groß!)
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+
+# ==========================================
+# 3. ENTWICKLUNGSUMGEBUNGEN & OS
+# ==========================================
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# 4. SECURITY & SECRETS (Absolut kritisch!)
+# ==========================================
+.env
+*.env
+.env.local
+.info
+# ==========================================
+# 5. KI-MODELLE (Zu groß für GitHub)
+# ==========================================
+# Ignoriert den Ordner mit dem OpenVINO Modell
+*yolov8n-pose_openvino_model/
+*.pt
+*.onnx
+*.engine
+
+# ==========================================
+# 6. LOKALE SYSTEM-DATEN & CONFIGS
+# ==========================================
+# Lokale Zwischenspeicher und Hardware-Configs
+calibration_snapshot.png
+client_config.json
+camera_config.json
