@@ -1,0 +1,158 @@
+# ==========================================
+# 1. PYTHON CACHES & TEMPORÄRES
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.pyo
+
+# ==========================================
+# 2. VIRTUAL ENVIRONMENTS (Sehr groß!)
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+.python-version
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==========================================
+# 3. ENTWICKLUNGSUMGEBUNGEN & OS
+# ==========================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ==========================================
+# 4. SECURITY & SECRETS (Absolut kritisch!)
+# ==========================================
+.env
+*.env
+.env.*
+!.env.example
+.info
+secrets.json
+credentials.json
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*_secret*
+*_password*
+
+# Lokale Notizen & Crash-Logs
+server_code_review.md
+server_crash_log.txt
+
+# ==========================================
+# 5. KI-MODELLE (Zu groß für GitHub)
+# ==========================================
+# Ignoriert den Ordner mit dem OpenVINO Modell
+*yolov8n-pose_openvino_model/
+*.pt
+*.onnx
+*.engine
+*.h5
+*.pb
+*.tflite
+*.bin
+*.xml
+*.pkl
+*.pickle
+*.joblib
+*.ckpt
+*.safetensors
+
+# ==========================================
+# 6. LOKALE SYSTEM-DATEN & CONFIGS
+# ==========================================
+# Lokale Zwischenspeicher und Hardware-Configs
+calibration_snapshot.png
+client_config.json
+camera_config.json
+*.local.json
+local_settings.py
+
+# ==========================================
+# 7. LOGS & DATENBANKEN
+# ==========================================
+*.log
+logs/
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# ==========================================
+# 8. EVALUATION / DATEN-OUTPUT
+# ==========================================
+eval_session_*.csv
+eval_log_Block_*.csv
+*.tmp
+*.bak
+*.old
+*.orig
+
+# ==========================================
+# 9. BUILD & DISTRIBUTION
+# ==========================================
+build/
+dist/
+*.egg-info/
+*.egg
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+MANIFEST
+
+# ==========================================
+# 10. TESTING & COVERAGE
+# ==========================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# ==========================================
+# 11. JUPYTER / IPYTHON
+# ==========================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# ==========================================
+# 12. TYPE CHECKING / LINTING
+# ==========================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
